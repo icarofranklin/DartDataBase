@@ -1,0 +1,19 @@
+name: projeto_orm_faculdade
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.11.1
+
+# Add regular dependencies here.
+dependencies:
+  drift: ^2.32.0
+  path: ^1.9.0
+  sqlite3: ^3.1.7
+
+dev_dependencies:
+  build_runner: ^2.12.2
+  drift_dev: ^2.32.0
+  lints: ^6.0.0
+  test: ^1.25.6

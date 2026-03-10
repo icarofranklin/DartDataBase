@@ -1,4 +1,4 @@
-// 1. Criação da classe de modelo (O Objeto)
+/* 1. Criação da classe de modelo (O Objeto)
 class Usuario {
   String nome;
   int idade;
@@ -46,3 +46,4 @@ void main() {
   print('Comando SQL gerado pelo nosso ORM:');
   print(sqlGerado); 
 }
+*/
