@@ -1,4 +1,7 @@
-/* 1. Criação da classe de modelo (O Objeto)
+/*
+<< Código teste de aprendizado >>
+
+ 1. Criação da classe de modelo (O Objeto)
 class Usuario {
   String nome;
   int idade;
