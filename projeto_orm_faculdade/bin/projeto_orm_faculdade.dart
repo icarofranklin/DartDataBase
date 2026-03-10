@@ -10,8 +10,8 @@ void main() async {
   /*2. Criação de um novo aluno
   O Drift usa o formato "Companion" para inserções, para podermos ignorar o ID (já que o banco vai gerar isso automaticamente).*/
   final novoAluno = AlunosCompanion(
-    nome: Value('Ícaro Franklin'),
-    curso: Value('Ciência da Computação'),
+    nome: Value('Rubenilson Feio'),
+    curso: Value('Análise e Desenvolvimento de Sistemas'),
   );
 
   //3. Salvando o novo aluno no Banco de Dados (Usando o método ORM)
