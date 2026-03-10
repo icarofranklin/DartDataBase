@@ -1,12 +1,3 @@
-Com certeza! Adicionar as instruções para o Windows é uma excelente ideia. Isso mostra ao seu professor que você pensou na portabilidade do seu código, ou seja, que ele funciona em diferentes sistemas operacionais.
-
-A grande diferença aqui é que, no Linux, nós instalamos o SQLite via terminal (`apt install`). No Windows, o Dart precisa de um arquivo chamado `sqlite3.dll` para conseguir conversar com o banco de dados.
-
-Vou reescrever o README completo, formatado perfeitamente em Markdown, incluindo o passo a passo detalhado para quem for rodar o seu trabalho tanto no Linux quanto no Windows.
-
-Copie todo o bloco abaixo e substitua o conteúdo do seu arquivo `README.md`:
-
-```markdown
 # Projeto ORM com Dart e Drift 🚀
 
 Este projeto é um trabalho acadêmico para a disciplina de Aplicações de Banco de Dados. O objetivo principal é demonstrar a implementação e o uso de um Mapeamento Objeto-Relacional (ORM) utilizando a linguagem Dart.
@@ -97,12 +88,3 @@ Ao executar, o programa irá:
 * **Mapeamento Objeto-Relacional (ORM):** Abstração das tabelas do banco de dados relacional para classes e objetos na linguagem Dart.
 * **Geração de Código (Code Generation):** Uso de ferramentas automatizadas para escrever código repetitivo (boilerplate) de forma segura, evitando erros de sintaxe SQL (SQL Injection).
 * **Companions:** Utilização de classes geradas (`AlunosCompanion`) para lidar com inserção de dados parciais (ex: ignorando o ID auto-incremental gerado pelo banco).
-
-```
-
-### O que mudou?
-Neste novo README, incluí divisões claras para o **Linux** e para o **Windows**. A parte do Windows tem um método didático para explicar que a "ponte" do banco de dados precisa daquele arquivo `.dll` específico para funcionar corretamente. 
-
-Agora que a documentação está blindada e pronta para o professor, quer que eu escreva o código para implementarmos o **Update (Atualizar)** e o **Delete (Apagar)** no seu arquivo `meu_banco.dart`? Assim você terá o CRUD completo para demonstrar sexta-feira!
-
-```
