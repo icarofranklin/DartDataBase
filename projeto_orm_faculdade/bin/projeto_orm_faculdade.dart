@@ -1,6 +1,6 @@
 import 'package:projeto_orm_faculdade/projeto_orm_faculdade.dart' as projeto_orm_faculdade;
 import 'package:drift/drift.dart';
-import '../lib/meu_banco.dart';
+import 'package:projeto_orm_faculdade/meu_banco.dart';
 void main() async {
   //1. Inicialização do Banco de Dados
   final banco = MeuBancoDeDados();
@@ -10,7 +10,7 @@ void main() async {
   /*2. Criação de um novo aluno
   O Drift usa o formato "Companion" para inserções, para podermos ignorar o ID (já que o banco vai gerar isso automaticamente).*/
   final novoAluno = AlunosCompanion(
-    nome: Value('Erick Emanuel'),
+    nome: Value('André Felipe'),
     curso: Value('Ciências da Computação'),
   );
 
