@@ -1,6 +1,6 @@
 import 'package:projeto_orm_faculdade/projeto_orm_faculdade.dart' as projeto_orm_faculdade;
 import 'package:drift/drift.dart';
-import '../lib/meu_banco.dart';
+import 'package:projeto_orm_faculdade/meu_banco.dart';
 void main() async {
   //1. Inicialização do Banco de Dados
   final banco = MeuBancoDeDados();
