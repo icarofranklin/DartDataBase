@@ -4,12 +4,12 @@ import 'package:drift/native.dart';
 
 part 'meu_banco.g.dart';
 
-/* 1. DEFINIÇÃO DA TABELA (O Mapeamento)
+/* 1. Definição da tabela (O Mapeamento)
 Aqui dizemos ao ORM como nossa tabela deve ser no banco de dados.*/
 class Alunos extends Table {
   IntColumn get id => integer().autoIncrement()(); // Coluna de ID: Número inteiro
   TextColumn get nome => text()(); // Coluna de Nome: Texto
-  TextColumn get curso => text()();
+  TextColumn get curso => text()(); // Coluna do Nome do Curso: Texto
 }
 
 /* 2. CONFIGURAÇÃO DO ORM
