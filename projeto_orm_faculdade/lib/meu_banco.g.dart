@@ -404,4 +404,3 @@ class $MeuBancoDeDadosManager {
   $$AlunosTableTableManager get alunos =>
       $$AlunosTableTableManager(_db, _db.alunos);
 }
-// mapeamento automatico 

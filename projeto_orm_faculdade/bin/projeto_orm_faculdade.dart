@@ -1,6 +1,5 @@
-import 'package:projeto_orm_faculdade/projeto_orm_faculdade.dart' as projeto_orm_faculdade;
 import 'package:drift/drift.dart';
-import '../lib/meu_banco.dart';
+import 'package:projeto_orm_faculdade/meu_banco.dart';
 void main() async {
   //1. Inicialização do Banco de Dados
   final banco = MeuBancoDeDados();
@@ -10,8 +9,8 @@ void main() async {
   /*2. Criação de um novo aluno
   O Drift usa o formato "Companion" para inserções, para podermos ignorar o ID (já que o banco vai gerar isso automaticamente).*/
   final novoAluno = AlunosCompanion(
-    nome: Value('Erick Emanuel'),
-    curso: Value('Ciências da Computação'),
+    nome: Value('Guilherme'),
+    curso: Value('Administração'),
   );
 
   //3. Salvando o novo aluno no Banco de Dados (Usando o método ORM)
@@ -30,3 +29,5 @@ void main() async {
   //6. Fechando conexão
   await banco.close();
 }
+// Para executar o código é necessário abrir o terminal e digitar "dart run"
+// Assim ele vai usar o ORM para mandar as informações para o banco de dados, sem a necessidade de manipulação SQL diretamente
